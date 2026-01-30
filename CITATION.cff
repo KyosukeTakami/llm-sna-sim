@@ -1,0 +1,27 @@
+
+```yaml
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "LLM-SNA-Sim: A Simulation Framework for Classroom Social Networks"
+authors:
+  - family-names: Takami
+    given-names: Kyosuke
+    affiliation: Osaka Kyoiku University
+  - family-names: Bren
+    given-names: 
+  - family-names: Lito
+    given-names: 
+  - family-names: Takami
+    given-names: 
+repository-code: "https://github.com/USERNAME/llm-sna-sim-strong"
+type: software
+license: MIT
+preferred-citation:
+  type: article
+  title: "From Rule-Based to LLM-Based Agents: A Simulation Framework for Classroom Social Networks"
+  authors:
+    - family-names: Takami
+      given-names: Kyosuke
+  year: 2026
+  journal: "Proceedings of the International Conference on Artificial Intelligence in Education"
+  note: "Under review"
