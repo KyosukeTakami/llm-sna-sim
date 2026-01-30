@@ -50,7 +50,7 @@ llm-sna-sim-strong/
 └── LICENSE
 
 
-```text
+```
 
 ---
 
