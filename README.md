@@ -32,21 +32,17 @@ llm-sna-sim-strong/
 │   ├── simulate.py
 │   ├── llm_agent.py
 │   ├── metrics.py
+|   |── compute_targets.py
 │   └── utils.py
 ├── tools/                        # Experiment and visualization scripts
-│   ├── run_abcd_rule.sh
-│   ├── run_abcd_llm.sh
-│   ├── plot_compare_targets.py
 │   └── plot_interaction_dynamics.py
-├── config/                       # Configuration files
-│   ├── default_params.json
-│   └── sfi_weights.json
 ├── data_demo/                    # Synthetic example data (no real classroom data)
 │   ├── demo_traits.csv
 │   ├── demo_edges.csv
 │   └── demo_targets.json
 ├── README.md
 ├── CITATION.cff
+├── requirements.txt
 └── LICENSE
 
 
