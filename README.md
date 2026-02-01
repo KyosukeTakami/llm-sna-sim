@@ -102,15 +102,27 @@ To ensure reproducibility:
 
 ---
 
-## How to Run (Example)
-
+## Quick Start（Example）
 ```bash
-# Rule-based simulation
-bash tools/run_abcd_rule.sh
+pip install -r requirements.txt
 
-# LLM-based simulation (requires API key)
+python src/compute_targets.py --nodes demo_data/demo_nodes.csv --edges demo_data/demo_edges.csv --out demo_data/targets_demo.json
+
+python src/calibrate.py --nodes demo_data/demo_nodes.csv --edges demo_data/demo_edges.csv   --targets demo_data/targets_demo.json --outdir results/runs/calib_demo --rep 20 --trials 60
+
+python src/simulate.py --nodes demo_data/demo_nodes.csv --edges demo_data/demo_edges.csv   --outdir results/runs/best_demo --T 30 --provider dummy --use.best results/calibration/calib_demo/best_params.json
+
+# ---- rule-based simulate with best params  ----
+python src/simulate.py  --nodes demo_data/demo_nodes.csv --edges demo_data/demo_edges.csv --outdir "results/runs" --T "${T}"  --llm.provider dummy  --use_best "results/calibration/calib_demo/best_params.json"  --init_graph "empty"
+
+
+# ---- llm-based simulate  ----
 export OPENAI_API_KEY=your_key_here
-bash tools/run_abcd_llm.sh
+python src/simulate.py --nodes "demo_data/demo_nodes.csv" --edges "demo_data/demo_edges.csv" --outdir "results/runs" --T "20" --seed "100"  --llm.provider openai --llm.model"{gpt-4o}" --llm.temperature "0.0" --llm.top_p "1.0" --llm.max_tokens "256" --init_graph "empty" --param.add_if_absent "1" --param.llm_include_params "0" --param.llm_candidate_pool "30"
+
+
+
+```
 
 
 Citation
