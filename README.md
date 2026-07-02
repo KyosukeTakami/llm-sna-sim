@@ -5,9 +5,7 @@ The framework is designed to enable *controlled comparisons* between interpretab
 
 The code accompanies the paper:
 
-> **From Rule-Based to LLM-Based Agents:  
-> A Simulation Framework for Classroom Social Networks**  
-> (submitted / under review)
+Takami, K., Haruno, M. (2026). From Rule-Based to LLM-Based Agents: A Calibrated Simulation Framework for Classroom Social Networks. In: Blanchard, E.G., Chen, G., Chi, M., Isotani, S. (eds) Artificial Intelligence in Education. AIED 2026. Lecture Notes in Computer Science(), vol 16583. Springer, Cham. https://doi.org/10.1007/978-3-032-29760-0_42
 
 ---
 
@@ -123,8 +121,9 @@ python src/simulate.py --nodes "demo_data/demo_nodes.csv" --edges "demo_data/dem
 
 Citation
 
-If you use this framework, please cite the accompanying paper (see CITATION.cff).
+If you use this framework, please cite the folloing paper.
 
+Takami, K., Haruno, M. (2026). From Rule-Based to LLM-Based Agents: A Calibrated Simulation Framework for Classroom Social Networks. In: Blanchard, E.G., Chen, G., Chi, M., Isotani, S. (eds) Artificial Intelligence in Education. AIED 2026. Lecture Notes in Computer Science(), vol 16583. Springer, Cham. https://doi.org/10.1007/978-3-032-29760-0_42
 
 License
 
