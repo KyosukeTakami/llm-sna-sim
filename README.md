@@ -1,4 +1,5 @@
 # LLM-SNA-Sim: A Simulation Framework for Classroom Social Networks
+![プレビュー](overview_image.png)
 
 This repository provides a simulation framework for modeling classroom social network formation using both **rule-based agents** and **large language model (LLM)–based agents**.  
 The framework is designed to enable *controlled comparisons* between interpretable parametric interaction rules and LLM-driven decision-making under identical simulation dynamics and evaluation criteria.
@@ -13,7 +14,6 @@ https://osf.io/preprints/socarxiv/yfxb4_v1
 ---
 
 ## Overview
-![プレビュー](overview_image.png)
 
 Peer interactions play a central role in social and emotional learning (SEL), yet modeling how classroom social networks emerge over time remains challenging.  
 This framework represents each student as an autonomous agent who repeatedly selects interaction partners based on individual attributes (e.g., Big Five personality traits) and classroom climate indicators.
