@@ -7,9 +7,13 @@ The code accompanies the paper:
 
 Takami, K., Haruno, M. (2026). From Rule-Based to LLM-Based Agents: A Calibrated Simulation Framework for Classroom Social Networks. In: Blanchard, E.G., Chen, G., Chi, M., Isotani, S. (eds) Artificial Intelligence in Education. AIED 2026. Lecture Notes in Computer Science(), vol 16583. Springer, Cham. https://doi.org/10.1007/978-3-032-29760-0_42
 
+The preprint PDF is available here.
+https://osf.io/preprints/socarxiv/yfxb4_v1
+
 ---
 
 ## Overview
+![プレビュー](overview_image.png)
 
 Peer interactions play a central role in social and emotional learning (SEL), yet modeling how classroom social networks emerge over time remains challenging.  
 This framework represents each student as an autonomous agent who repeatedly selects interaction partners based on individual attributes (e.g., Big Five personality traits) and classroom climate indicators.
